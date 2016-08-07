@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B159E3721D5713D7000B9635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159E3711D5713D7000B9635 /* AppDelegate.swift */; };
+		B159E3741D5713D7000B9635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159E3731D5713D7000B9635 /* ViewController.swift */; };
+		B159E3771D5713D7000B9635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B159E3751D5713D7000B9635 /* Main.storyboard */; };
+		B159E3791D5713D7000B9635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B159E3781D5713D7000B9635 /* Assets.xcassets */; };
+		B159E37C1D5713D7000B9635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B159E37A1D5713D7000B9635 /* LaunchScreen.storyboard */; };
+		B159E3871D5713D7000B9635 /* FABbuttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159E3861D5713D7000B9635 /* FABbuttonTests.swift */; };
+		B159E3921D5713D7000B9635 /* FABbuttonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159E3911D5713D7000B9635 /* FABbuttonUITests.swift */; };
+		B159E3A01D571465000B9635 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159E39F1D571465000B9635 /* ActionButton.swift */; };
+		B159E3A21D571482000B9635 /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159E3A11D571482000B9635 /* ActionButtonItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B159E3831D5713D7000B9635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B159E3661D5713D7000B9635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B159E36D1D5713D7000B9635;
+			remoteInfo = FABbutton;
+		};
+		B159E38E1D5713D7000B9635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B159E3661D5713D7000B9635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B159E36D1D5713D7000B9635;
+			remoteInfo = FABbutton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B159E36E1D5713D7000B9635 /* FABbutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FABbutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B159E3711D5713D7000B9635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B159E3731D5713D7000B9635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B159E3761D5713D7000B9635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B159E3781D5713D7000B9635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B159E37B1D5713D7000B9635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B159E37D1D5713D7000B9635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B159E3821D5713D7000B9635 /* FABbuttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FABbuttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B159E3861D5713D7000B9635 /* FABbuttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FABbuttonTests.swift; sourceTree = "<group>"; };
+		B159E3881D5713D7000B9635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B159E38D1D5713D7000B9635 /* FABbuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FABbuttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B159E3911D5713D7000B9635 /* FABbuttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FABbuttonUITests.swift; sourceTree = "<group>"; };
+		B159E3931D5713D7000B9635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B159E39F1D571465000B9635 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		B159E3A11D571482000B9635 /* ActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B159E36B1D5713D7000B9635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159E37F1D5713D7000B9635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159E38A1D5713D7000B9635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B159E3651D5713D7000B9635 = {
+			isa = PBXGroup;
+			children = (
+				B159E3701D5713D7000B9635 /* FABbutton */,
+				B159E3851D5713D7000B9635 /* FABbuttonTests */,
+				B159E3901D5713D7000B9635 /* FABbuttonUITests */,
+				B159E36F1D5713D7000B9635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B159E36F1D5713D7000B9635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B159E36E1D5713D7000B9635 /* FABbutton.app */,
+				B159E3821D5713D7000B9635 /* FABbuttonTests.xctest */,
+				B159E38D1D5713D7000B9635 /* FABbuttonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B159E3701D5713D7000B9635 /* FABbutton */ = {
+			isa = PBXGroup;
+			children = (
+				B159E3711D5713D7000B9635 /* AppDelegate.swift */,
+				B159E3731D5713D7000B9635 /* ViewController.swift */,
+				B159E3751D5713D7000B9635 /* Main.storyboard */,
+				B159E3781D5713D7000B9635 /* Assets.xcassets */,
+				B159E37A1D5713D7000B9635 /* LaunchScreen.storyboard */,
+				B159E37D1D5713D7000B9635 /* Info.plist */,
+				B159E3A31D571497000B9635 /* New Group */,
+			);
+			path = FABbutton;
+			sourceTree = "<group>";
+		};
+		B159E3851D5713D7000B9635 /* FABbuttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B159E3861D5713D7000B9635 /* FABbuttonTests.swift */,
+				B159E3881D5713D7000B9635 /* Info.plist */,
+			);
+			path = FABbuttonTests;
+			sourceTree = "<group>";
+		};
+		B159E3901D5713D7000B9635 /* FABbuttonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B159E3911D5713D7000B9635 /* FABbuttonUITests.swift */,
+				B159E3931D5713D7000B9635 /* Info.plist */,
+			);
+			path = FABbuttonUITests;
+			sourceTree = "<group>";
+		};
+		B159E3A31D571497000B9635 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B159E39F1D571465000B9635 /* ActionButton.swift */,
+				B159E3A11D571482000B9635 /* ActionButtonItem.swift */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B159E36D1D5713D7000B9635 /* FABbutton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B159E3961D5713D7000B9635 /* Build configuration list for PBXNativeTarget "FABbutton" */;
+			buildPhases = (
+				B159E36A1D5713D7000B9635 /* Sources */,
+				B159E36B1D5713D7000B9635 /* Frameworks */,
+				B159E36C1D5713D7000B9635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FABbutton;
+			productName = FABbutton;
+			productReference = B159E36E1D5713D7000B9635 /* FABbutton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B159E3811D5713D7000B9635 /* FABbuttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B159E3991D5713D7000B9635 /* Build configuration list for PBXNativeTarget "FABbuttonTests" */;
+			buildPhases = (
+				B159E37E1D5713D7000B9635 /* Sources */,
+				B159E37F1D5713D7000B9635 /* Frameworks */,
+				B159E3801D5713D7000B9635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B159E3841D5713D7000B9635 /* PBXTargetDependency */,
+			);
+			name = FABbuttonTests;
+			productName = FABbuttonTests;
+			productReference = B159E3821D5713D7000B9635 /* FABbuttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B159E38C1D5713D7000B9635 /* FABbuttonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B159E39C1D5713D7000B9635 /* Build configuration list for PBXNativeTarget "FABbuttonUITests" */;
+			buildPhases = (
+				B159E3891D5713D7000B9635 /* Sources */,
+				B159E38A1D5713D7000B9635 /* Frameworks */,
+				B159E38B1D5713D7000B9635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B159E38F1D5713D7000B9635 /* PBXTargetDependency */,
+			);
+			name = FABbuttonUITests;
+			productName = FABbuttonUITests;
+			productReference = B159E38D1D5713D7000B9635 /* FABbuttonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B159E3661D5713D7000B9635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Vijay;
+				TargetAttributes = {
+					B159E36D1D5713D7000B9635 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B159E3811D5713D7000B9635 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B159E36D1D5713D7000B9635;
+					};
+					B159E38C1D5713D7000B9635 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B159E36D1D5713D7000B9635;
+					};
+				};
+			};
+			buildConfigurationList = B159E3691D5713D7000B9635 /* Build configuration list for PBXProject "FABbutton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B159E3651D5713D7000B9635;
+			productRefGroup = B159E36F1D5713D7000B9635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B159E36D1D5713D7000B9635 /* FABbutton */,
+				B159E3811D5713D7000B9635 /* FABbuttonTests */,
+				B159E38C1D5713D7000B9635 /* FABbuttonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B159E36C1D5713D7000B9635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B159E37C1D5713D7000B9635 /* LaunchScreen.storyboard in Resources */,
+				B159E3791D5713D7000B9635 /* Assets.xcassets in Resources */,
+				B159E3771D5713D7000B9635 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159E3801D5713D7000B9635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159E38B1D5713D7000B9635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B159E36A1D5713D7000B9635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B159E3741D5713D7000B9635 /* ViewController.swift in Sources */,
+				B159E3721D5713D7000B9635 /* AppDelegate.swift in Sources */,
+				B159E3A21D571482000B9635 /* ActionButtonItem.swift in Sources */,
+				B159E3A01D571465000B9635 /* ActionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159E37E1D5713D7000B9635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B159E3871D5713D7000B9635 /* FABbuttonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159E3891D5713D7000B9635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B159E3921D5713D7000B9635 /* FABbuttonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B159E3841D5713D7000B9635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B159E36D1D5713D7000B9635 /* FABbutton */;
+			targetProxy = B159E3831D5713D7000B9635 /* PBXContainerItemProxy */;
+		};
+		B159E38F1D5713D7000B9635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B159E36D1D5713D7000B9635 /* FABbutton */;
+			targetProxy = B159E38E1D5713D7000B9635 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B159E3751D5713D7000B9635 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B159E3761D5713D7000B9635 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B159E37A1D5713D7000B9635 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B159E37B1D5713D7000B9635 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B159E3941D5713D7000B9635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B159E3951D5713D7000B9635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B159E3971D5713D7000B9635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FABbutton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.FABbutton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B159E3981D5713D7000B9635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FABbutton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.FABbutton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B159E39A1D5713D7000B9635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FABbuttonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.FABbuttonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FABbutton.app/FABbutton";
+			};
+			name = Debug;
+		};
+		B159E39B1D5713D7000B9635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FABbuttonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.FABbuttonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FABbutton.app/FABbutton";
+			};
+			name = Release;
+		};
+		B159E39D1D5713D7000B9635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FABbuttonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.FABbuttonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FABbutton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B159E39E1D5713D7000B9635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FABbuttonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.FABbuttonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FABbutton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B159E3691D5713D7000B9635 /* Build configuration list for PBXProject "FABbutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B159E3941D5713D7000B9635 /* Debug */,
+				B159E3951D5713D7000B9635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B159E3961D5713D7000B9635 /* Build configuration list for PBXNativeTarget "FABbutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B159E3971D5713D7000B9635 /* Debug */,
+				B159E3981D5713D7000B9635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B159E3991D5713D7000B9635 /* Build configuration list for PBXNativeTarget "FABbuttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B159E39A1D5713D7000B9635 /* Debug */,
+				B159E39B1D5713D7000B9635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B159E39C1D5713D7000B9635 /* Build configuration list for PBXNativeTarget "FABbuttonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B159E39D1D5713D7000B9635 /* Debug */,
+				B159E39E1D5713D7000B9635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B159E3661D5713D7000B9635 /* Project object */;
+}
